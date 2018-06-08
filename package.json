@@ -1,0 +1,17 @@
+{
+  "name": "chat-app-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mateusz Molka",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.11",
+    "socket.io": "^2.0.4"
+  }
+}
